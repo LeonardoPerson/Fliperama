@@ -1,3 +1,19 @@
 body {
     text-align: center;
+    background-color: black;
 }
+#nome{
+    font-size: 20px;
+    font-style: bold;
+    color: gold;
+    font-family: cursive;
+}
+#conteudo{
+	font-size: 17px;
+	font-style: bold;
+	width:20px;
+	color:gold;
+	background-color: black;
+	border: 0px;
+}
+
