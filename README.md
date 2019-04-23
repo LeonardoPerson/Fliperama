@@ -11,4 +11,4 @@
 2.1 - Após clicar em "OK", o jogador poderá se dirigir para os lados e para cima;
 2.2 - Ao colidir com um inimigo, o jogador será posicionado em seu ponto de partida;
 2.3 - Ao chegar na água, a contagem de pontos será incrementada com um ponto.
-3 - Ao atualizar o navegadr, o jogo é reinicado e a contagem de pontos é zerada.
+3 - Ao atualizar o navegador, o jogo é reinicado e a contagem de pontos é zerada.
