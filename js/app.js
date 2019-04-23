@@ -20,7 +20,7 @@ class Enemy extends Gerenciador{
 		this.width_max = 550;//posição final do inimigo
 		this.fixed_y = y;//posição vertical e fixa do inimigo
 		this.velocidade = velocidade;//velocidade do inimigo, somado com a variável x, compõem o movimento
-    	this.sprite = 'images/enemy-bug.png';
+		this.sprite = 'images/enemy-bug.png';
 	}
 	//Atualiza a posição do inimigo
 	update(dt){
