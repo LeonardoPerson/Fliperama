@@ -13,18 +13,18 @@ class Gerenciador{
 class Enemy extends Gerenciador{
 	constructor(y, velocidade, inicio){
 		super(inicio);
-		this.width = 101;					//largura horizontal entre o meio de um bloco e outro
-		this.interval = this.width / 2;		//metade da largura horizontal de um bloco
-		this.initial_x = -101; 				//posição horizontal do inimigo iniciando no canto esquerdo da tela
-		this.x = this.initial_x; 			//variável que terá a modificação constante de valor, permitindo o movimento
-		this.width_max = 550; 				//posição final do inimigo
-		this.fixed_y = y; 					//posição vertical e fixa do inimigo
-		this.velocidade = velocidade; 		//velocidade do inimigo, somado com a variável x, compõem o movimento
+		this.width = 101;//largura horizontal entre o meio de um bloco e outro
+		this.interval = this.width / 2;	//metade da largura horizontal de um bloco
+		this.initial_x = -101;//posição horizontal do inimigo iniciando no canto esquerdo da tela
+		this.x = this.initial_x;//variável que terá a modificação constante de valor, permitindo o movimento
+		this.width_max = 550;//posição final do inimigo
+		this.fixed_y = y;//posição vertical e fixa do inimigo
+		this.velocidade = velocidade;//velocidade do inimigo, somado com a variável x, compõem o movimento
     	this.sprite = 'images/enemy-bug.png';
 	}
 	//Atualiza a posição do inimigo
 	update(dt){
-			for(let i = this.x + this.velocidade * dt; i <= this.width_max; i++){
+		for(let i = this.x + this.velocidade * dt; i <= this.width_max; i++){
 			this.render(i);	//fazendo o inimigo se movimentar por meio do looping
 			this.colisao(i); //tratamento da colisão
 			if(i >= this.width_max - this.interval && i <= this.width_max){
