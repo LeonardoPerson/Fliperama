@@ -13,7 +13,7 @@ class Gerenciador{
 class Enemy extends Gerenciador{
 	constructor(y, velocidade, inicio){
 		super(inicio);
-		this.width = 101; 					//largura horizontal entre o meio de um bloco e outro
+		this.width = 101;					//largura horizontal entre o meio de um bloco e outro
 		this.interval = this.width / 2;		//metade da largura horizontal de um bloco
 		this.initial_x = -101; 				//posição horizontal do inimigo iniciando no canto esquerdo da tela
 		this.x = this.initial_x; 			//variável que terá a modificação constante de valor, permitindo o movimento
