@@ -5,7 +5,7 @@
 - [Instructions](#instructions)
 - [Contributing](#contributing)
 
-A minha contribuição neste projeto ocorreu pelo arquivo "app.js".
+A minha contribuição neste projeto ocorreu pelo arquivo "app.js", que é responsável por exibir o jogo na tela e determinar suas funcionalidades. O objetivo aqui foi treinar Javascript orientado a objetos utilizando a sintaxe ES6.
 
 ## Instruções
 1 - Carregue o arquivo "index.html" em um navegador;
